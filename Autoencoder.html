@@ -7561,6 +7561,7 @@ a.anchor-link {
 <li><a href="#34">Section 3.4: Top 20 Highest Anomalies by Hospital</a></li>
 </ul>
 </li>
+<li><a href="#4">Section 4: What's Next?</a></li>
 </ul>
 </div>
 </div>
@@ -9002,6 +9003,26 @@ Percentage of anomalies: 5.00%
 <li><p>For decision makers (health admins or government), this is the “shortlist” of hospitals that stand out most.</p>
 </li>
 <li><p>Instead of investigating all 163,000 rows, this chart reduces the workload to a targeted set of top outliers.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5265741e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="What's-Next?-">What's Next? <a name="4"></a><a class="anchor-link" href="#What's-Next?-">¶</a></h1><ul>
+<li><p>If we later receive a new CSV with fresh hospital billing data, we don’t retrain right away.</p>
+</li>
+<li><p>We would perform the same preprocessing steps (cleaning, scaling) as before.</p>
+</li>
+<li><p>Then, we would use the already trained AutoEncoder model to predict anomaly scores on the new data.</p>
+</li>
+<li><p>This way, we leverage the learned patterns from the original training without needing to retrain the model each time.</p>
 </li>
 </ul>
 </div>
